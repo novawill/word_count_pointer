@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+      <FILENAME>word_counts.c</FILENAME>
+      <LINE>33</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>“realloc”可能返回 null 指针: 将 null 指针赋给“pStr”(后者将作为参数传递给“realloc”)将导致原始内存块泄漏。</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH />
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+      <FILENAME>word_counts.c</FILENAME>
+      <LINE>89</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>“realloc”可能返回 null 指针: 将 null 指针赋给“pWords”(后者将作为参数传递给“realloc”)将导致原始内存块泄漏。</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH />
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+      <FILENAME>word_counts.c</FILENAME>
+      <LINE>90</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>“realloc”可能返回 null 指针: 将 null 指针赋给“pnWords”(后者将作为参数传递给“realloc”)将导致原始内存块泄漏。</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH />
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+      <FILENAME>word_counts.c</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>62</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“pStr”可能是“0”: 这不符合函数“strnlen_s”的规范。查看第 36 行以找出可能会发生此情况的前一位置</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>10</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>11</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>62</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“pStr”为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“pStr”是“strcat_s”的输入/输出参数(在 c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h:34 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“strcat_s(pStr, str_size, buf)”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>继续此循环(假定“1”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“&lt;分支条件&gt;”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“buf[0]==10”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>62</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“pStr”是对“strnlen_s”的输入(在 c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h:373 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>62</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“&lt;分支条件&gt;”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>62</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“pStr”不应为 NULL，因为这与“strnlen_s”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+      <FILENAME>word_counts.c</FILENAME>
+      <LINE>36</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“pStr”可能是“0”: 这不符合函数“strcat_s”的规范。</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>10</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>11</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>62</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>62</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“pStr”为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“pStr”是“strcat_s”的输入/输出参数(在 c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h:34 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“strcat_s(pStr, str_size, buf)”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“pStr”不应为 NULL，因为这与“strcat_s”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+      <FILENAME>word_counts.c</FILENAME>
+      <LINE>94</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“*(pWords+word_count)”可能是“0”: 这不符合函数“strcpy_s”的规范。</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“pWords”接收来自“calloc”的返回值(在 c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_malloc.h:62 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>10</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>11</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“!pStr”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此循环(假定“1”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“&lt;分支条件&gt;”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“buf[0]==10”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“pWords”接收来自“calloc”的返回值(在 c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_malloc.h:62 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“!((pWords&amp;&amp;pnWords))”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“!pword”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此循环(假定“pword”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“i&lt;word_count”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>84</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>11</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“new_word”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>86</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>12</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“word_count==maxwords”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>93</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>13</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“pWords”是“strcpy_s”的输入/输出参数(在 c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h:27 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\程序\program exercise\c\word_count\word_count\</FILEPATH>
+        <FILENAME>word_counts.c</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>14</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“*(pWords+word_count)”不应为 NULL，因为这与“strcpy_s”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
